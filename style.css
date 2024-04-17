@@ -1,0 +1,209 @@
+body {
+font: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
+background: linear-gradient(45deg, rgb(135, 72, 127), rgb(192, 147, 238) );
+}
+
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+}
+
+.study_img{
+    display: flex;
+    gap: 120px;
+}
+.study_img a{
+    width: 200px;
+}
+
+.study_img img{
+    width: 200px;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+.dark {
+padding: 15px;
+background-color: #35424a;
+color: rgb(124, 40, 40);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+/* Header  */
+header {
+background-color: #35424a;
+color: rgb(229, 189, 189);
+padding-top: 30px;
+min-height: 70px;
+border-bottom: #845f55 3px solid;
+}
+
+header a {
+color: rgb(149, 79, 79);
+text-decoration: none;
+font-size: 17px;
+}
+
+header li {
+display: inline;
+padding: 0 10px;
+float: left;
+}
+
+header #branding {
+float: left;
+}
+
+header #branding h1 {
+margin: 0;
+}
+
+header nav {
+float: right;
+margin-top: 10px;
+}
+
+header .highlight, header .current a {
+color: #e0e05b; 
+font-weight: bold;
+}
+
+a:hover {
+color: #aaaaaa;
+font-weight: bold; 
+}
+
+/* Showcase */
+#showcase {
+min-height: 400px;
+background: url('../img/showcase.jpg') no-repeat 0 -400px;
+text-align: center;
+color: rgb(23, 61, 84);
+}
+
+#showcase h1 {
+margin-top: 100px;
+font-size: 55px;
+margin-bottom: 10px;;
+}
+
+#showcase p {
+font-size: 20px;
+}
+
+/* Newsletter */
+
+#newsletter {
+background-color: #35424a;
+padding: 15px;
+color: white;
+}
+
+#newsletter h1 {
+float: left;
+}
+
+#newsletter form {
+float: right;
+margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+padding: 4px;
+height: 25px;
+width: 250px;
+}
+
+.button_1 {
+height: 38px;
+background-color: #bedf75;
+border: 0;
+padding: 0 20px;
+color: white;
+}
+
+/* Boxes */
+
+#boxes {
+margin-top: 20px;
+}
+
+#boxes .box {
+float: left;
+text-align: center;
+width: 30%;
+padding: 10px;
+}
+
+#boxes .box img {
+width: 100px;
+}
+
+/* Sidebar */
+aside#sidebar {
+float: right; 
+width: 30%;
+margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col {
+float: left;
+width: 65%;
+}
+
+/* Service */
+ul#service li {
+list-style: none;
+padding: 20px;
+border: #cccccc solid 1px;
+background-color: #e6e6e6;
+margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+padding: 20px;
+margin-top: 10px;
+color: white;
+background-color: #20c4d0;
+background: linear-gradient(45deg,rgb(238, 16, 16),rgb(0, 23, 228));
+text-align: center;
+
+width: 100%;
+
+}
+
+.ms {
+    text-align: right;
+}
+
+.ms a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.8em;
+    width: 50px;
+}
+
+#showcase h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+
+#submit{
+    border: 2px solid rgb(83, 40, 75);
+}
